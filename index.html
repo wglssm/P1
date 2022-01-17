@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">MEET<span>ME</span></a>
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open nav">
+            
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close nav">
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Background</a></li>
+                    <li><a href="#">Professional Experience</a></li>
+                    <li><a href="#">Hobby</a></li>
+                    <li><a href="#">Uniqueness</a></li>
+                </ul>
+
+                <ul class="second-nav">
+                    <li class="go-premium-cta"><a href="#contact-name">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Nitty &amp; Gritty</p>
+                <h1>A Taks App That Doesn't Sthink</h1>
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta"> Try for free</a>
+                    <a href="#" class="watch-video-cta"> 
+                        <img src="images/watch.svg" alt="watch a video">Watch a Video
+                    </a>
+                </div>
+            </div>
+            <img src="images/illustration.svg" class="hero-ima" alt="illustration">
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome features</li>
+            </ul>
+            <img src="images/holding-phone.jpg" alt="hold phone">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <cite> Jane Doe
+                    </cite>
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <cite> Jane Doe
+                    </cite>
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <cite> Jane Doe
+                    </cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2 id="contact-name">Contact</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email" name="Email">
+
+                    <label for="Message">Message</label>
+                    <textarea id="Message" name="Message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="Send Message">
+                </form>
+            </div>
+
+        
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <p>Let go Get it !</p>
+
+    </section>
+    </section>
+
+    <script>
+        const mobileBtn=document.getElementById('mobile-cta')
+              nav=document.querySelector('nav')
+              mobileBtnExit=document.getElementById('mobile-exit');
+        
+        mobileBtn.addEventListener('click',()=>{
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click',()=>{
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+
+</body>
+</html>
