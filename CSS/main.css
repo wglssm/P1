@@ -8,6 +8,10 @@ body {
   font-family: "poppins";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background: white;
   padding: 1em;
