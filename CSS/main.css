@@ -293,7 +293,7 @@ nav li a:hover {
     margin: 0 auto;
   }
   section {
-    padding: 8em 3em;
+    padding: 5em 3em;
   }
   .hero .container {
     display: -webkit-box;
@@ -363,7 +363,7 @@ nav li a:hover {
 }
 
 .footer-basic {
-  padding: 40px 0;
+  padding: 10px 0;
   background-color: #ffffff;
   color: #4b4c4d;
 }
